@@ -18,23 +18,28 @@ class: text-center
 
 ```mermaid
 erDiagram
-  Axel ||--o{ Andrei : leads
-  Max ||--o{ Andrei : leads
-  Axel ||--o{ Matheo : leads
-  Max ||--o{ Matheo : leads
-  Axel ||--o{ Thomas : leads
-  Max ||--o{ Thomas : leads
-  Axel ||--o{ Oceane : leads
-  Max ||--o{ Oceane : leads
-  Axel ||--o{ Pierre : leads
-  Max ||--o{ Pierre : leads
-  Axel ||--o{ Clement : leads
-  Max ||--o{ Clement : leads
-  Axel ||--o{ Anthonin : leads
-  Max ||--o{ Anthonin : leads
-  Thomas ||--o{ Marine : manages
-  Thomas ||--o{ Lucas : manages
-  Oceane ||--o{ Nathan : manages
-  Anthonin ||--o{ Maguy : manages
-  Maguy ||--o{ Lisa : manages
+  CEO ||--|{ Andrei : leads
+  CEO ||--|{ Andrei : leads
+  CEO ||--|{ Matheo : leads
+  CEO ||--|{ Matheo : leads
+  CEO ||--|{ Thomas : leads
+  CEO ||--|{ Thomas : leads
+  CEO ||--|{ Oceane : leads
+  CEO ||--|{ Oceane : leads
+  CEO ||--|{ Pierre : leads
+  CEO ||--|{ Pierre : leads
+  CEO ||--|{ Clement : leads
+  CEO ||--|{ Clement : leads
+  CEO ||--|{ Anthonin : leads
+  CEO ||--|{ Anthonin : leads
+  Thomas ||--|{ Marine : manages
+  Thomas ||--|{ Lucas : manages
+  Oceane ||--|{ Nathan : manages
+  Anthonin ||--|{ Maguy : manages
+  Maguy ||--|{ Lisa : manages
+
+  CEO {
+    Axel M.
+    Max
+  }
 ```
