@@ -15,31 +15,23 @@ class: text-center
 ---
 
 # Our Team
-
 ```mermaid
 erDiagram
-  CEO ||--|{ Andrei : leads
-  CEO ||--|{ Andrei : leads
-  CEO ||--|{ Matheo : leads
-  CEO ||--|{ Matheo : leads
-  CEO ||--|{ Thomas : leads
-  CEO ||--|{ Thomas : leads
-  CEO ||--|{ Oceane : leads
-  CEO ||--|{ Oceane : leads
-  CEO ||--|{ Pierre : leads
-  CEO ||--|{ Pierre : leads
-  CEO ||--|{ Clement : leads
-  CEO ||--|{ Clement : leads
-  CEO ||--|{ Anthonin : leads
-  CEO ||--|{ Anthonin : leads
-  Thomas ||--|{ Marine : manages
-  Thomas ||--|{ Lucas : manages
-  Oceane ||--|{ Nathan : manages
-  Anthonin ||--|{ Maguy : manages
-  Maguy ||--|{ Lisa : manages
+    CEO ||--o{ Andrei : leads
+    CEO ||--o{ Matheo : leads
+    CEO ||--o{ Thomas : leads
+    CEO ||--o{ Oceane : leads
+    CEO ||--o{ Pierre : leads
+    CEO ||--o{ Clement : leads
+    CEO ||--o{ Antonin : leads
+    Thomas ||--o{ Marine : manages
+    Thomas ||--o{ Lucas : manages
+    Oceane ||--o{ Nathan : manages
+    Antonin ||--o{ Maguy : manages
+    Maguy ||--o{ Lisa : manages
 
-  CEO {
-    Axel M.
-    Max
-  }
+    CEO {
+        Axel
+        Max
+    }
 ```
