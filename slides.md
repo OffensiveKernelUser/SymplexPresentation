@@ -40,13 +40,4 @@ erDiagram
 
 # Cardinal
 
-<input type=text placeholder="Talk with Cardinal !" class="input"/>
-
-<style>
-  input {
-    width: 100%;
-    height: 50px;
-    border-radius: 10px;
-    padding: 15px;
-  }
-</style>
+<cardinal />
