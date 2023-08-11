@@ -13,4 +13,28 @@ class: text-center
 </div>
 
 ---
----
+
+# Our Team
+
+```mermaid
+erDiagram
+  Axel ||--o{ Andrei : leads
+  Max ||--o{ Andrei : leads
+  Axel ||--o{ Matheo : leads
+  Max ||--o{ Matheo : leads
+  Axel ||--o{ Thomas : leads
+  Max ||--o{ Thomas : leads
+  Axel ||--o{ Oceane : leads
+  Max ||--o{ Oceane : leads
+  Axel ||--o{ Pierre : leads
+  Max ||--o{ Pierre : leads
+  Axel ||--o{ Clement : leads
+  Max ||--o{ Clement : leads
+  Axel ||--o{ Anthonin : leads
+  Max ||--o{ Anthonin : leads
+  Thomas ||--o{ Marine : manages
+  Thomas ||--o{ Lucas : manages
+  Oceane ||--o{ Nathan : manages
+  Anthonin ||--o{ Maguy : manages
+  Maguy ||--o{ Lisa : manages
+```
