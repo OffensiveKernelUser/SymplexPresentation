@@ -40,4 +40,4 @@ erDiagram
 
 # Cardinal
 
-<cardinal />
+<Cardinal />

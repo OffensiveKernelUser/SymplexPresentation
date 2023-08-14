@@ -16,3 +16,9 @@
     outline: 0px;
   }
 </style>
+
+<script>
+  export default {
+    name: "Cardinal"
+  }
+</script>
